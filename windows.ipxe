@@ -17,9 +17,9 @@ item --gap Installers
 item win_install ${space} Load ${os} Installer...
 item --gap Options:
 item image_set ${space} Image [ ${win_image} ]
+item unattend_set ${space} Unattend Script [ ${install_script} ]
 item pe_arch_set ${space} Architecture [ ${winpe_arch} ]
 item url_set ${space} Base URL [ ${win_base_url} ]
-item unattend_set ${space} Unattend Script [ ${install_script} ]
 choose win_version || goto windows_exit
 goto ${win_version}
 
