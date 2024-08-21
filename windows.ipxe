@@ -23,9 +23,9 @@ goto ${win_version}
 
 :image_set
 menu Image
-item Win10Pro_German_Lenovo echo Win10Pro_German_Lenovo
-item Win10Pro_German echo Win10Pro_German
-item Win10Pro_German_WithoutWipe echo Win10Pro_German_WithoutWipe
+item Win10Pro_German_Lenovo Win10Pro_German_Lenovo
+item Win10Pro_German Win10Pro_German
+item Win10Pro_German_WithoutWipe Win10Pro_German_WithoutWipe
 choose win_image && goto windows
 
 :pe_arch_set
