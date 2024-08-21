@@ -5,8 +5,8 @@
 
 set winpe_arch x64
 set win_image Win10Pro_German
-set win_base_url http://10.123.30.11:8080
 set install_script install.bat
+set win_base_url http://10.123.30.11:8080
 goto ${menu} ||
 
 :windows
@@ -53,9 +53,9 @@ goto windows
 
 :unattend_set
 menu Unattend Script
-item install.bat         install.bat
-item install_Lenovo      install_Lenovo
-item install_WithoutWipe install_WithoutWipe
+item install.bat             install.bat
+item install_Lenovo.bat      install_Lenovo.bat
+item install_WithoutWipe.bat install_WithoutWipe.bat
 choose install_script && goto windows
 
 :win_install
