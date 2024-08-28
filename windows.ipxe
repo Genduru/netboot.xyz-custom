@@ -25,6 +25,7 @@ goto ${win_version}
 
 :image_set
 menu Image
+item Win11Pro_German Win11Pro_German
 item Win10Pro_German Win10Pro_German
 choose win_image && goto windows
 
